@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.util
+package com.android.tools.ui.util
 
 import android.net.Uri
 import android.os.SystemClock
@@ -6,8 +6,8 @@ import android.util.Log
 import com.topjohnwu.superuser.CallbackList
 import com.topjohnwu.superuser.Shell
 import com.topjohnwu.superuser.ShellUtils
-import me.weishu.kernelsu.BuildConfig
-import me.weishu.kernelsu.ksuApp
+import com.android.tools.BuildConfig
+import com.android.tools.ksuApp
 import java.io.File
 
 

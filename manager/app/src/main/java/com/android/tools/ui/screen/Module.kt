@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.screen
+package com.android.tools.ui.screen
 
 import android.app.Activity.RESULT_OK
 import android.content.Intent
@@ -28,14 +28,14 @@ import com.google.accompanist.swiperefresh.rememberSwipeRefreshState
 import com.ramcosta.composedestinations.annotation.Destination
 import com.ramcosta.composedestinations.navigation.DestinationsNavigator
 import kotlinx.coroutines.launch
-import me.weishu.kernelsu.Natives
-import me.weishu.kernelsu.R
-import me.weishu.kernelsu.ui.screen.destinations.InstallScreenDestination
-import me.weishu.kernelsu.ui.util.LocalSnackbarHost
-import me.weishu.kernelsu.ui.util.overlayFsAvailable
-import me.weishu.kernelsu.ui.util.toggleModule
-import me.weishu.kernelsu.ui.util.uninstallModule
-import me.weishu.kernelsu.ui.viewmodel.ModuleViewModel
+import com.android.tools.Natives
+import com.android.tools.R
+import com.android.tools.ui.screen.destinations.InstallScreenDestination
+import com.android.tools.ui.util.LocalSnackbarHost
+import com.android.tools.ui.util.overlayFsAvailable
+import com.android.tools.ui.util.toggleModule
+import com.android.tools.ui.util.uninstallModule
+import com.android.tools.ui.viewmodel.ModuleViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Destination

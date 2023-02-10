@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.component
+package com.android.tools.ui.component
 
 import android.util.Log
 import androidx.compose.animation.AnimatedVisibility
@@ -25,7 +25,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import me.weishu.kernelsu.R
+import com.android.tools.R
 
 private const val TAG = "SearchBar"
 

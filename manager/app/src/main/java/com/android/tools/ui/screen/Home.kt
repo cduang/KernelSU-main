@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.screen
+package com.android.tools.ui.screen
 
 import android.content.ClipData
 import android.content.ClipboardManager
@@ -31,13 +31,13 @@ import com.ramcosta.composedestinations.annotation.Destination
 import com.ramcosta.composedestinations.annotation.RootNavGraph
 import com.ramcosta.composedestinations.navigation.DestinationsNavigator
 import kotlinx.coroutines.launch
-import me.weishu.kernelsu.*
-import me.weishu.kernelsu.R
-import me.weishu.kernelsu.ui.screen.destinations.SettingScreenDestination
-import me.weishu.kernelsu.ui.util.LocalSnackbarHost
-import me.weishu.kernelsu.ui.util.reboot
-import me.weishu.kernelsu.ui.util.getSELinuxStatus
-import me.weishu.kernelsu.ui.util.install
+import com.android.tools.*
+import com.android.tools.R
+import com.android.tools.ui.screen.destinations.SettingScreenDestination
+import com.android.tools.ui.util.LocalSnackbarHost
+import com.android.tools.ui.util.reboot
+import com.android.tools.ui.util.getSELinuxStatus
+import com.android.tools.ui.util.install
 
 @OptIn(ExperimentalMaterial3Api::class)
 @RootNavGraph(start = true)

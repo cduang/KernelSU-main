@@ -1,9 +1,9 @@
-package me.weishu.kernelsu.ui.util
+package com.android.tools.ui.util
 
 import androidx.compose.ui.res.stringResource
 import androidx.compose.runtime.Composable
 import com.topjohnwu.superuser.Shell
-import me.weishu.kernelsu.R
+import com.android.tools.R
 
 @Composable
 fun getSELinuxStatus(): String {

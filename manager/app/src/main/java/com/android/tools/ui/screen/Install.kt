@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.screen
+package com.android.tools.ui.screen
 
 import android.net.Uri
 import android.os.Environment
@@ -23,11 +23,11 @@ import com.ramcosta.composedestinations.navigation.DestinationsNavigator
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import me.weishu.kernelsu.R
-import me.weishu.kernelsu.ksuApp
-import me.weishu.kernelsu.ui.util.LocalSnackbarHost
-import me.weishu.kernelsu.ui.util.installModule
-import me.weishu.kernelsu.ui.util.reboot
+import com.android.tools.R
+import com.android.tools.ksuApp
+import com.android.tools.ui.util.LocalSnackbarHost
+import com.android.tools.ui.util.installModule
+import com.android.tools.ui.util.reboot
 import java.io.File
 import java.text.SimpleDateFormat
 import java.util.*

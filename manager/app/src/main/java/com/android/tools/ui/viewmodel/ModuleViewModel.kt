@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.viewmodel
+package com.android.tools.ui.viewmodel
 
 import android.content.Context
 import android.os.SystemClock
@@ -10,7 +10,7 @@ import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import me.weishu.kernelsu.ui.util.listModules
+import com.android.tools.ui.util.listModules
 import org.json.JSONArray
 import java.text.Collator
 import java.util.*

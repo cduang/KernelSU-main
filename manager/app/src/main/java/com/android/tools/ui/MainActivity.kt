@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui
+package com.android.tools.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -15,13 +15,13 @@ import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.NavHostController
 import com.google.accompanist.navigation.animation.rememberAnimatedNavController
 import com.ramcosta.composedestinations.DestinationsNavHost
-import me.weishu.kernelsu.ui.screen.BottomBarDestination
-import me.weishu.kernelsu.ui.screen.NavGraphs
-import me.weishu.kernelsu.ui.screen.appCurrentDestinationAsState
-import me.weishu.kernelsu.ui.screen.destinations.Destination
-import me.weishu.kernelsu.ui.screen.startAppDestination
-import me.weishu.kernelsu.ui.theme.KernelSUTheme
-import me.weishu.kernelsu.ui.util.LocalSnackbarHost
+import com.android.tools.ui.screen.BottomBarDestination
+import com.android.tools.ui.screen.NavGraphs
+import com.android.tools.ui.screen.appCurrentDestinationAsState
+import com.android.tools.ui.screen.destinations.Destination
+import com.android.tools.ui.screen.startAppDestination
+import com.android.tools.ui.theme.KernelSUTheme
+import com.android.tools.ui.util.LocalSnackbarHost
 
 class MainActivity : ComponentActivity() {
 

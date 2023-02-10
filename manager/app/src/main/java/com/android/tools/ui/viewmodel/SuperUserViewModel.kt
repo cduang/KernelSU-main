@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.viewmodel
+package com.android.tools.ui.viewmodel
 
 import android.content.pm.ApplicationInfo
 import android.content.pm.PackageInfo
@@ -12,9 +12,9 @@ import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import me.weishu.kernelsu.Natives
-import me.weishu.kernelsu.ksuApp
-import me.weishu.kernelsu.ui.util.HanziToPinyin
+import com.android.tools.Natives
+import com.android.tools.ksuApp
+import com.android.tools.ui.util.HanziToPinyin
 import java.text.Collator
 import java.util.*
 

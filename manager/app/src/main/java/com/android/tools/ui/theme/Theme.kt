@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.theme
+package com.android.tools.ui.theme
 
 import android.app.Activity
 import android.os.Build

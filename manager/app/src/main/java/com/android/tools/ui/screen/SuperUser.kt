@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.screen
+package com.android.tools.ui.screen
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
@@ -19,11 +19,11 @@ import com.google.accompanist.swiperefresh.SwipeRefresh
 import com.google.accompanist.swiperefresh.rememberSwipeRefreshState
 import com.ramcosta.composedestinations.annotation.Destination
 import kotlinx.coroutines.launch
-import me.weishu.kernelsu.Natives
-import me.weishu.kernelsu.R
-import me.weishu.kernelsu.ui.component.SearchAppBar
-import me.weishu.kernelsu.ui.util.LocalSnackbarHost
-import me.weishu.kernelsu.ui.viewmodel.SuperUserViewModel
+import com.android.tools.Natives
+import com.android.tools.R
+import com.android.tools.ui.component.SearchAppBar
+import com.android.tools.ui.util.LocalSnackbarHost
+import com.android.tools.ui.viewmodel.SuperUserViewModel
 import java.util.*
 
 @OptIn(ExperimentalMaterial3Api::class)

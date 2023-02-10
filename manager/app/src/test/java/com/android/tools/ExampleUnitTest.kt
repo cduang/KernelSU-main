@@ -1,4 +1,4 @@
-package me.weishu.kernelsu
+package com.android.tools
 
 import org.junit.Test
 

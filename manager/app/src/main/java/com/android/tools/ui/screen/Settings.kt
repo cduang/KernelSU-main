@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.screen
+package com.android.tools.ui.screen
 
 import android.content.Intent
 import android.net.Uri
@@ -16,10 +16,10 @@ import androidx.core.content.FileProvider
 import com.alorma.compose.settings.ui.*
 import com.ramcosta.composedestinations.annotation.Destination
 import com.ramcosta.composedestinations.navigation.DestinationsNavigator
-import me.weishu.kernelsu.ui.util.getBugreportFile
-import me.weishu.kernelsu.BuildConfig
-import me.weishu.kernelsu.R
-import me.weishu.kernelsu.ui.util.LinkifyText
+import com.android.tools.ui.util.getBugreportFile
+import com.android.tools.BuildConfig
+import com.android.tools.R
+import com.android.tools.ui.util.LinkifyText
 
 
 /**

@@ -1,4 +1,4 @@
-package me.weishu.kernelsu
+package com.android.tools
 
 import android.app.Application
 import coil.Coil

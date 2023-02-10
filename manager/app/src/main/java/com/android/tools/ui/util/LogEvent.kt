@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.util
+package com.android.tools.ui.util
 
 import android.content.Context
 import android.os.Build
